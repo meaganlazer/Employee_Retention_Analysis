@@ -1,5 +1,4 @@
 # HR Attrition Data from IBM
-Meagan Rossi
 
 ## Overview<br/>
 
@@ -54,6 +53,3 @@ XGBoost
 
 **Data Sources:**
 1. [IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset)
-
-Thank you!
-Please reach out to me, meaganrossi@gmail.com for any questions.
