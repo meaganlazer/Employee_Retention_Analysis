@@ -6,10 +6,15 @@ According to [Gallup](https://www.gallup.com/workplace/247391/fixable-problem-co
 <img src="_Images/Correlation_Bar.png" width ="700">
 
 Metric | XGBoost | Random Forest | KNN
------------- | -------------
-Hyperparameters | Upscaling for Attrition, value count 1233 (No) and 237 (Yes) | test_size=0.1 | standard
+------------ | ------------- | ------------- | -------------
+Hyperparameters | Upscale Attrition | test_size=0.1 | standard
 Accuracy | .83 | .85 | .79
 F1 | .43 | .51 | .33
+
+## Recommendations
+1. Hire a diverse age range of employees. Married and older employees have lower attrition.
+2. Conduct comprehensive surveys. Then, either ditch or improve employee training programs.
+3. Offer Overtime or other financial reward incentives beyond salary.
 
 ## Tools
 - XGBoost Model
