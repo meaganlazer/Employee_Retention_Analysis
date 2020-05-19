@@ -1,7 +1,25 @@
 # Employee Retention Analysis
 
 ## Overview
-Uncover the factors that lead to employee attrition and explore important questions such as ‘show me a breakdown of distance from home by job role and attrition’ or ‘compare average monthly income by education and attrition’. This is a fictional data set created by IBM data scientists.
+According to [Gallup](https://www.gallup.com/workplace/247391/fixable-problem-costs-businesses-trillion.aspx)the annual overall employee turnover rate for 2017 in the U.S. was **26.3%**. The Bureau of Labor Statistics estimates that for 100-person organization where the average salary is $50,000/year, this turnover rate results financial losses of approximately $660,000 to $2.6m / year. So what causes employees to leave? This fictional dataset from IBM hosts survey responses to 35 questions from 1470 individuals to evaluate key variables for retention.
+
+<img src="_Images/Correlation_Bar.png" width ="700">
+
+Metric | XGBoost | Random Forest | KNN
+------------ | -------------
+Hyperparameters | Upscaling for Attrition, value count 1233 (No) and 237 (Yes) | test_size=0.1 | standard
+Accuracy | .83 | .85 | .79
+F1 | .43 | .51 | .33
+
+## Tools
+- XGBoost Model
+- Random Forest Model
+- KNN Model
+
+**Data Source**<br/>
+1. [IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+
+**Survey Questions**<br/>
 
 Education<br/>
 1. 'Below College'
@@ -45,9 +63,3 @@ WorkLifeBalance
 2. 'Good'
 3. 'Better'
 4. 'Best'
-
-## Tools<br/>
--mXGBoost
-
-**Data Sources:**
-1. [IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset)
